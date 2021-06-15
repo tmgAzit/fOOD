@@ -105,3 +105,18 @@ hr {
   background-color: var(--color-secondary);
   color: #fff;
 }
+
+.imgMove {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 56%;
+  animation: animate 1s ease-in-out;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 1;
+    transform: scale(0.5);
+  }
+}
