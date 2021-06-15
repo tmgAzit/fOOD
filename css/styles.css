@@ -49,8 +49,8 @@ p {
 }
 
 .mainIcon {
-  width: 40px;
-  height: 40px;
+  width: 4rem;
+  height: 4rem;
 }
 
 .list {
@@ -59,7 +59,7 @@ p {
 
 .nav__item {
   display: inline;
-  padding: 30px;
+  padding: 3rem;
   border-bottom: 1p solid #222;
 }
 
@@ -70,4 +70,23 @@ p {
 
 .nav__item > a:hover {
   color: #fff;
+}
+
+/* Hero component */
+.content {
+  position: absolute;
+  top: 27vh;
+  left: 10%;
+  width: 33%;
+}
+
+hr {
+  margin-top: 3rem;
+  width: 20%;
+  height: 0.6rem;
+  background: var(--color-primary);
+}
+
+.content > p {
+  margin-top: 3rem;
 }
